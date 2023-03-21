@@ -1,0 +1,3 @@
+2023-03-21 15:04:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TESTO CHARACTER VARYING(255)": "'classe mappata nel database class Note attr: id: Interer PK testo : String != n... (740)"; SQL statement:
+insert into note (autore, testo, id) values (?, ?, ?) [22001-214]
